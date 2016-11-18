@@ -9,9 +9,9 @@
 		"projectUrl": "https://github.com/john-t-white/StaticDotNet.DependencyInjection.Configuration",
 		"repository": { "url": "https://github.com/john-t-white/StaticDotNet.DependencyInjection.Configuration" },
 		"tags": [
-			"Parameter",
-			"Argument",
-			"Validation"
+			"AspNetCore",
+			"Dependency",
+			"Injection"
 		]
 	},
 
