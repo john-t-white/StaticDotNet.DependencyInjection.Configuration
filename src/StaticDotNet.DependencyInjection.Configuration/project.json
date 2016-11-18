@@ -1,16 +1,29 @@
-﻿{
+{
 	"version": "1.0.0",
-
 	"dependencies": {
+		"Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
+		"StaticDotNet.ParameterValidation": "1.1.0"
 	},
-
-	"frameworks": {
-		"net461": {},
-		"netstandard1.6": {
-			"imports": "dnxcore50",
-			"dependencies": {
-				"NETStandard.Library": "1.6.0"
-			}
-		}
-	}
+  "frameworks": {
+    "net461": {
+      "dependencies": {
+        "System.Runtime": "4.0.20"
+      }
+    },
+    "netstandard1.0": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "NETStandard.Library": "1.6.0"
+      }
+    },
+    "netstandard1.1": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "NETStandard.Library": "1.6.0"
+      }
+    }
+  },
+  "buildOptions": {
+    "xmlDoc": true
+  }
 }
