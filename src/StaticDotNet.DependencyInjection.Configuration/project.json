@@ -1,29 +1,45 @@
 {
 	"version": "1.0.0",
+
+	"authors": [ "John T. White" ],
+
+	"packOptions": {
+		"owners": [ "John T. White" ],
+		"summary": "StaticDotNet.DependencyInjection.Configuration provides a way to configure services outside of the Startup class.",
+		"projectUrl": "https://github.com/john-t-white/StaticDotNet.DependencyInjection.Configuration",
+		"repository": { "url": "https://github.com/john-t-white/StaticDotNet.DependencyInjection.Configuration" },
+		"tags": [
+			"Parameter",
+			"Argument",
+			"Validation"
+		]
+	},
+
 	"dependencies": {
 		"Microsoft.Extensions.DependencyInjection.Abstractions": "1.0.0",
 		"StaticDotNet.ParameterValidation": "1.1.0"
 	},
-  "frameworks": {
-    "net461": {
-      "dependencies": {
-        "System.Runtime": "4.0.20"
-      }
-    },
-    "netstandard1.0": {
-      "imports": "dnxcore50",
-      "dependencies": {
-        "NETStandard.Library": "1.6.0"
-      }
-    },
-    "netstandard1.1": {
-      "imports": "dnxcore50",
-      "dependencies": {
-        "NETStandard.Library": "1.6.0"
-      }
-    }
-  },
-  "buildOptions": {
-    "xmlDoc": true
-  }
+	"frameworks": {
+		"net461": {
+			"dependencies": {
+				"System.Runtime": "4.0.20"
+			}
+		},
+		"netstandard1.0": {
+			"imports": "dnxcore50",
+			"dependencies": {
+				"NETStandard.Library": "1.6.0"
+			}
+		},
+		"netstandard1.1": {
+			"imports": "dnxcore50",
+			"dependencies": {
+				"NETStandard.Library": "1.6.0"
+			}
+		}
+	},
+
+	"buildOptions": {
+		"xmlDoc": true
+	}
 }
