@@ -2,6 +2,7 @@
 	"version": "1.0.0",
 
 	"authors": [ "John T. White" ],
+	"description": "StaticDotNet.DependencyInjection.Configuration provides a way to configure services outside of the Startup class.",
 
 	"packOptions": {
 		"owners": [ "John T. White" ],
