@@ -1,5 +1,5 @@
 {
-	"version": "1.0.0",
+	"version": "1.1.0",
 
 	"authors": [ "John T. White" ],
 	"description": "StaticDotNet.DependencyInjection.Configuration provides a way to configure services outside of the Startup class.",
